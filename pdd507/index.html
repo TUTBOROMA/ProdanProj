@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>ПДД</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="HTML5 website template">
+  <meta name="keywords" content="ПДД, template, html, sass, jquery">
+  <meta name="author" content="Bucky Maler">
+  <link rel="stylesheet" href="assets/css/main.css">
+
+  <style>
+    /* Общие стили для уменьшения размера изображений в галереях */
+    .pdd-for-cyclists-gallery img {
+      max-width: 45%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .hire-gallery img,
+    .pdd-for-sim-gallery img {
+      max-width: 50%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .pdd-for-sim-gallery img {
+      max-width: 40%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .dorozhnaya-gallery img {
+      max-width: 40%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* Добавленные стили */
+    .gallery-navigation {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .gallery-navigation button {
+      background-color: #1d3ffe;
+      color: white;
+      border: none;
+      padding: 15px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 2px 2px;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+
+    /* Отступ для галереи ПДД для СИМ */
+    .pdd-for-sim-gallery {
+      margin-top: 300px;
+    }
+
+    /* Отступ для галереи Дорожные Знаки */
+    .dorozhnaya-gallery {
+      margin-top: 300px;
+    }
+
+    /* Отступ для галереи ПДД для велосипедистов */
+    .pdd-for-cyclists-gallery {
+      margin-top: 100px;
+    }
+
+    /* Стили для слайда: чёрный фон и белый текст */
+    .intro {
+      background-color: black !important;
+      color: white !important;
+    }
+    .intro * {
+      color: white !important;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="perspective effect-rotate-left">
+    <div class="container">
+      <div class="outer-nav--return"></div>
+      <div id="viewport" class="l-viewport">
+        <div class="l-wrapper">
+          <header class="header">
+            <a class="header--logo" href="#0">
+              <img src="assets/img/nicelogo.png" alt="ПДД">
+              <p>ПДД</p>
+            </a>
+            <button class="header--cta cta">ПАМЯТКИ</button>
+            <div class="header--nav-toggle">
+              <span></span>
+            </div>
+          </header>
+          <nav class="l-side-nav">
+            <ul class="side-nav">
+              <li class="is-active"><span>Главная Страница</span></li>
+              <li><span>ПДД для СИМ</span></li>
+              <li><span>Дорожные Знаки</span></li>
+              <li><span>ПДД для ВЕЛОСИПЕДИСТОВ</span></li>
+              <li><span>Памятки</span></li>
+            </ul>
+          </nav>
+          <ul class="l-main-content main-content">
+            <li class="l-section section section--is-active">
+              <div class="intro">
+                <div class="intro--banner">
+                  <h1>Правила<br>Дорожного<br>Движения</h1>
+                  <button class="cta">ПАМЯТКИ
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                      <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                        <path d="M870,1167C823.88,1154.36,55.29,646.387,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z" />
+                      </g>
+                    </svg>
+                    <span class="btn-background"></span>
+                  </button>
+                  <img src="assets/img/123logoooo.png" alt="Welcome">
+                </div>
+                <div class="intro--options">
+                  <a href="#0">
+                    <h3>Восемь основных правил безопасного поведения на дороге для пешеходов:</h3>
+                    <p>  -никогда не выбегайте на дорогу перед приближающимся автотранспортом. Водитель не может остановить машину сразу;
+                      -выходите на проезжую часть только убедившись в отсутствии приближающегося транспорта и слева, и справа;
+                      -при выходе из автобуса или троллейбуса не выбегайте из-за него на дорогу. Подождите пока он отъедет и только потом, убедившись в отсутствии машин, переходите дорогу;</p>
+                  </a>
+                  <a href="#0">
+                    <p> -при выходе из трамвая пройдите на тротуар, дойдите до ближайшего пешеходного перехода и перейдите проезжую часть;
+                      -не выбегайте на дорогу вне зоны пешеходного перехода – в этом месте водитель не ожидает пешеходов и не сможет мгновенно остановить автомобиль;
+                      -очень опасен выход из-за стоящих у тротуара автомашин – они закрывают Вам обзор дороги. Сначала нужно выглянуть на дорогу и оценить обстановку, и только убедившись в безопасности, переходить ее;</p>
+                  </a>
+                  <a href="#0">
+                    <h2>Пешеходы являются участниками движения и они должны выполнять правила.</h2>
+                    <p>Пешеход должен двигаться по тротуару или пешеходной дорожке. Это — территория пешеходов. Если же их нет, то можно идти по обочине или краю проезжей части навстречу движению транспорта. За городом безопаснее идти не по самой обочине, а по тропинке вдоль дороги. Если на тротуаре ведутся ремонтные работы, следует перейти на другую сторону улицы.</p>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="l-section section">
+              <div class="pdd-for-sim-gallery">
+                <!-- Вторая галерея: добавьте остальные изображения -->
+              </div>
+              <div class="gallery-navigation">
+                <button class="prev-button" onclick="showPreviousImagePddForSim()">◄</button>
+                <button class="next-button" onclick="showNextImagePddForSim()">►</button>
+              </div>
+            </li>
+            <li class="l-section section">
+              <div class="dorozhnaya-gallery">
+                <!-- Третья галерея: добавьте остальные изображения -->
+              </div>
+              <div class="gallery-navigation">
+                <button class="prev-button" onclick="showPreviousImageDorozhnaya()">◄</button>
+                <button class="next-button" onclick="showNextImageDorozhnaya()">►</button>
+              </div>
+            </li>
+            <li class="l-section section">
+              <div class="pdd-for-cyclists-gallery">
+                <!-- Четвертая галерея: добавьте остальные изображения -->
+                <img src="assets/img/cyclists/11.jpg" alt="ПДД для велосипедистов">
+              </div>
+              <div class="gallery-navigation">
+                <button class="prev-button" onclick="showPreviousImagePddForCyclists()">◄</button>
+                <button class="next-button" onclick="showNextImagePddForCyclists()">►</button>
+              </div>
+            </li>
+            <li class="l-section section">
+              <div class="hire-gallery">
+                <!-- Добавьте остальные изображения -->
+              </div>
+              <div class="gallery-navigation">
+                <button class="prev-button" onclick="showPreviousImage()">◄</button>
+                <button class="next-button" onclick="showNextImage()">►</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <ul class="outer-nav">
+    <li class="is-active">Главная Страница</li>
+    <li>ПДД для СИМ</li>
+    <li>Дорожные Знаки</li>
+    <li>ПДД для ВЕЛОСИПЕДИСТОВ</li>
+    <li>Памятки</li>
+  </ul>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')
+  </script>
+  <script src="assets/js/functions-min.js"></script>
+  <script>
+    // Массив изображений для галереи "ПДД для СИМ"
+    var imagesPddForSim = [
+      'assets/img/pddcim/1.jpg',
+      'assets/img/pddcim/2.jpg',
+      'assets/img/pddcim/3.jpg',
+      'assets/img/pddcim/4.jpg',
+      'assets/img/pddcim/115.jpg',
+      'assets/img/pddcim/116.jpg',
+      'assets/img/pddcim/117.jpg',
+    ];
+
+    var currentImageIndexPddForSim = 0;
+    function showImagePddForSim() {
+      var pddForSimGallery = document.querySelector('.pdd-for-sim-gallery');
+      pddForSimGallery.innerHTML = '<img src="' + imagesPddForSim[currentImageIndexPddForSim] + '" alt="EROR">';
+    }
+    function showPreviousImagePddForSim() {
+      currentImageIndexPddForSim = (currentImageIndexPddForSim - 1 + imagesPddForSim.length) % imagesPddForSim.length;
+      showImagePddForSim();
+    }
+    function showNextImagePddForSim() {
+      currentImageIndexPddForSim = (currentImageIndexPddForSim + 1) % imagesPddForSim.length;
+      showImagePddForSim();
+    }
+    showImagePddForSim();
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'ArrowLeft') {
+        showPreviousImagePddForSim();
+      } else if (event.key === 'ArrowRight') {
+        showNextImagePddForSim();
+      }
+    });
+
+    var images = [
+      'assets/img/8.jpg',
+      'assets/img/4.jpg',
+      'assets/img/3.jpg',
+      'assets/img/5.jpg',
+      'assets/img/7.jpg',
+      'assets/img/9.jpg',
+      'assets/img/10.jpg',
+    ];
+    var currentImageIndex = 0;
+    function showImage() {
+      var hireUsSection = document.querySelector('.hire-gallery');
+      hireUsSection.innerHTML = '<img src="' + images[currentImageIndex] + '" alt="EROR">';
+    }
+    function showPreviousImage() {
+      currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+      showImage();
+    }
+    function showNextImage() {
+      currentImageIndex = (currentImageIndex + 1) % images.length;
+      showImage();
+    }
+    showImage();
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'ArrowLeft') {
+        showPreviousImage();
+      } else if (event.key === 'ArrowRight') {
+        showNextImage();
+      }
+    });
+
+    var imagesDorozhnaya = [
+      'assets/img/dorznznaki/01.jpg',
+      'assets/img/dorznznaki/03.jpg',
+      'assets/img/dorznznaki/02.jpg',
+    ];
+    var currentImageIndexDorozhnaya = 0;
+    function showImageDorozhnaya() {
+      var dorozhnayaGallery = document.querySelector('.dorozhnaya-gallery');
+      dorozhnayaGallery.innerHTML = '<img src="' + imagesDorozhnaya[currentImageIndexDorozhnaya] + '" alt="EROR">';
+    }
+    function showPreviousImageDorozhnaya() {
+      currentImageIndexDorozhnaya = (currentImageIndexDorozhnaya - 1 + imagesDorozhnaya.length) % imagesDorozhnaya.length;
+      showImageDorozhnaya();
+    }
+    function showNextImageDorozhnaya() {
+      currentImageIndexDorozhnaya = (currentImageIndexDorozhnaya + 1) % imagesDorozhnaya.length;
+      showImageDorozhnaya();
+    }
+    showImageDorozhnaya();
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'ArrowLeft') {
+        showPreviousImageDorozhnaya();
+      } else if (event.key === 'ArrowRight') {
+        showNextImageDorozhnaya();
+      }
+    });
+
+    var imagesPddForCyclists = [
+      'assets/img/forvelos/11.jpg',
+      'assets/img/forvelos/22.jpg',
+      'assets/img/forvelos/33.jpg',
+    ];
+    var currentImageIndexPddForCyclists = 0;
+    function showImagePddForCyclists() {
+      var pddForCyclistsGallery = document.querySelector('.pdd-for-cyclists-gallery');
+      pddForCyclistsGallery.innerHTML = '<img src="' + imagesPddForCyclists[currentImageIndexPddForCyclists] + '" alt="EROR">';
+    }
+    function showPreviousImagePddForCyclists() {
+      currentImageIndexPddForCyclists = (currentImageIndexPddForCyclists - 1 + imagesPddForCyclists.length) % imagesPddForCyclists.length;
+      showImagePddForCyclists();
+    }
+    function showNextImagePddForCyclists() {
+      currentImageIndexPddForCyclists = (currentImageIndexPddForCyclists + 1) % imagesPddForCyclists.length;
+      showImagePddForCyclists();
+    }
+    showImagePddForCyclists();
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'ArrowLeft') {
+        showPreviousImagePddForCyclists();
+      } else if (event.key === 'ArrowRight') {
+        showNextImagePddForCyclists();
+      }
+    });
+  </script>
+
+  <div class="gallery-navigation"></div>
+
+</body>
+</html>
